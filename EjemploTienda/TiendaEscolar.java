@@ -26,8 +26,19 @@ public class TiendaEscolar {
             switch(opcion){
 
                 case 1:
-                    // Jocimar
-                    break;
+
+            System.out.println("Ingrese el nombre del producto:");
+            String nombre = sc.nextLine();
+
+            System.out.println("Ingrese el precio del producto:");
+            double precio = sc.nextDouble();
+
+             productos.add(nombre);
+             precios.add(precio);
+
+             System.out.println("Producto registrado correctamente.");
+
+             break;
 
                 case 2:
                     // Johan
