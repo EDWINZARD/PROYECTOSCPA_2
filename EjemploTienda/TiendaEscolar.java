@@ -41,6 +41,10 @@ public class TiendaEscolar {
              break;
 
                 case 2:
+                    System.out.println("\nProductos registrados:");
+                    for(int i = 0; i < productos.size();i++){
+                        
+                    }
                     // Johan
                     break;
 
