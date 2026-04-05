@@ -41,15 +41,26 @@ public class TiendaEscolar {
              break;
 
                 case 2:
+                    
                     System.out.println("\nProductos registrados:");
+                    
                     for(int i = 0; i < productos.size();i++){
-                        
+
+                        System.out.println(productos.get(i) + "-$" + precios.get(i));
                     }
-                    // Johan
+                    
                     break;
 
                 case 3:
-                    // Johan
+
+                    double total = 0;
+
+                    for(double p: precios){
+                        total += p;
+                    }
+
+                    System.out.println("Total de la compra: $" + total);
+                    
                     break;
 
             }
