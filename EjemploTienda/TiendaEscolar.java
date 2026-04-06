@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TiendaEscolar {
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -69,4 +68,5 @@ public class TiendaEscolar {
 
     }
 }
+//hola nelly bienvenida
 
